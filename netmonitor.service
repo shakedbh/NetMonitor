@@ -1,0 +1,12 @@
+[Unit]
+Description=NetMonitor service
+After=network.target
+
+[Service]
+Type=simple
+Environment=DISPLAY=:0
+User=dev
+ExecStart=/usr/bin/python3 /home/dev/PycharmProjects/NetMonitorr/main.py
+
+[Install]
+WantedBy=graphical.target

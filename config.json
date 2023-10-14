@@ -1,0 +1,8 @@
+{
+  "low_limit": 10,
+  "high_limit": 100,
+  "time_interval": 60,
+  "show_graphs": "true",
+  "save_graphs": "true",
+  "dev_mode": "true"
+}
